@@ -5,7 +5,6 @@
       <sourceFolder url="file://$MODULE_DIR$/backend/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/backend/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
       <sourceFolder url="file://$MODULE_DIR$/backend/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
-      <sourceFolder url="file://$MODULE_DIR$/backend/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/backend/tests" isTestSource="true" packagePrefix="Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/carbonphp/carbon-doctrine-types" />
@@ -24,11 +23,14 @@
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/guzzlehttp/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/guzzlehttp/uri-template" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/inertiajs/inertia-laravel" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/laravel/breeze" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/laravel/pail" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/laravel/pint" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/laravel/prompts" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/laravel/sanctum" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/laravel/serializable-closure" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/laravel/tinker" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/league/commonmark" />
@@ -114,6 +116,7 @@
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/tightenco/ziggy" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/tijsverkoyen/css-to-inline-styles" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/voku/portable-ascii" />
