@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Listing;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ListingController extends Controller
 {
@@ -14,7 +15,18 @@ class ListingController extends Controller
 
     public function store(Request $request)
     {
-        $listing = Listing::create($request->all());
+        $request->validate([
+            'title' => 'required',
+            'address' => 'required',
+            'city' => 'required',
+            'state' => 'required',
+            'price' => 'required'
+        ]);
+
+        $listing = new Listing($request->all());
+        $listing->user_id = Auth::id();
+        $listing->save();
+
         return response()->json($listing, 201);
     }
 
